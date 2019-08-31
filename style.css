@@ -22,6 +22,14 @@ h2{
     text-align: center;
     display: flex;
 }
+@media only screen and (max-device-width: 680px) {
+    h2{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
 h2 span{
     transition: 1.5s;
 }
